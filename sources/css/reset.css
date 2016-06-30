@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+ **************************************************************************
+ *                                                                        *
+ *  触屏版——腾讯客服官网reset样式                                                 *
+ *                                                                        *
+ *  @copyright       Copyright © 1998-2013 Tencent. All Rights Reserved.  *
+ *  @link            http://kf.qq.com/                                    *
+ *  @author          silenceWang                                          *
+ *  @version         1.0                                                  *
+ *  @lastmodify      2013.10.31                                            *
+ *                                                                        *
+ **************************************************************************
+*/
+
+
+/*========== reset ==========*/
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none;}
+body,h1,h2,h3,h4,h5,h6,p,ul,dl,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,input,textarea,select,button,label{font-size:100%;vertical-align:middle;}
+ul,ol{padding-left:0;}
+ul,dl,ol{list-style:none;}
+img,fieldset{border:none;}
+img{display:inline-block;overflow:hidden;vertical-align:top;}
+em,address,i{font-style:normal;}
+sup,sub{vertical-align:baseline;}
+table{border-collapse:collapse;border-spacing:0;}
+q:before{content:"";}
+q:after{content:"";}
+textarea{word-wrap:break-word;resize:none;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+menu{margin:0;padding:0;}
+mark{background-color:transparent;}
+body{font-size:12px;line-height:1.6em;background:#fff;font-family:"Helvetica Neue",Helvetica,Arial,Tahoma,sans-serif;}
+legend,button,select,textarea,input{color:#333;}
+button{min-width:50px;height:28px;padding:0 14px 1px;cursor:pointer;}
+input[type='text']{padding:0 4px;}
+img{max-width:100%;height:auto;}
+select {-webkit-appearance:none;-webkit-border-radius:0px;background:url(http://imgcache.qq.com/bossweb/service/touch/images/arrow_slt.png) no-repeat right;background-size:auto 100%;}
+input[type='text'] {-webkit-appearance:none;background:none;}
+button {-webkit-appearance:none;border:none;}/*  |xGv00|4d7d71f5dd9048bfa370212a335d67e1 */

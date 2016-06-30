@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta name="Keywords" content="快捷微信,微信快捷方式,微信伴侣,微信快速启动">
+<meta name="description" content="快捷微信把微信一些隐藏比较深的工具做成快捷方式，让你一键省流量清空间">
+<meta http-equiv="Content-Language" content="zh-cn">
+<title>微信快捷工具</title>
+
+<link rel="stylesheet" rev="stylesheet" href="./sources/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" rev="stylesheet" href="./sources/css/share.css" type="text/css" media="screen">
+<link rel="stylesheet" rev="stylesheet" href="./sources/css/wx_inner.css" type="text/css" media="screen">
+<link rel="apple-touch-icon-precomposed" href="http://78rc72.com1.z0.glb.clouddn.com/weixin/img/quick-weixin.jpg">
+<style type="text/css">
+    .footer-menu{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .footer-menu ul{
+      display: flex;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+      background-color: #e8e9eb
+    }
+    .footer-menu ul li:first-child a{
+      border-left: none;
+    }
+    .footer-menu ul li{
+      float: left;
+      flex: 1;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .footer-menu ul li a{
+      border-left: 1px solid #fff;
+      display: block;
+      color: #555;
+      padding: 2px 10px;
+      text-decoration: none;
+    }
+    .container{
+      padding-bottom: 50px;
+    }
+</style>
+
+
+<script src="./sources/js/jweixin-1.1.0.js"></script>
+<script type="text/javascript">
+wx.config({
+	debug: false,
+	appId: '',
+	timestamp: 0,
+	nonceStr: '',
+	signature: '',
+	jsApiList: []
+});
+
+wx.ready(function() {
+
+});
+</script>
+
+</head>
+<body class="bg_efeff4" ontouchstart="">
+
+    <!--主内容区域-begin-->
+ <div class="h_f_v190_wrapper">
+    <h2>热门工具</h2>
+    <div class="list1 nav_icon">
+        <ul id="setlist_14">
+            <!--<li onclick="kf_pgv('settings.android');window.open('weixin://dl/settings')">
+                <div>
+                <div class="img">
+                    <img src="//imgcache.qq.com/bossweb/service/touch/images/wx_inner/icon_set.png">
+                </div>
+                <p>设置功能</p>
+                </div>
+            </li>-->
+            <li onclick="window.open('http://kf.qq.com/touch/weixin/wx_lt.html')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/recovery.png">
+                </div>
+                <p>异常修复</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/features')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/features.png">
+                </div>
+                <p>个性功能</p>
+                </div>
+            </li>
+            <li onclick="window.open('http://kf.qq.com/touch/weixin/wx_seq.html')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/messages.png">
+                </div>
+                <p>收发消息检测</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/clear')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/clear.png">
+                </div>
+                <p>清理缓存空间</p>
+                </div>
+            </li>
+        </ul>    
+    </div>
+
+    <h2>推荐工具</h2>
+    <div class="list1 nav_icon">
+        <ul id="setlist_15">
+            <li onclick="window.open('weixin://dl/chathistory')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/chathistory.png">
+                </div>
+                <p>迁移聊天记录</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/sight')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/sight.png">
+                </div>
+                <p>一键省流量</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/notifications')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/notifications.png">
+                </div>
+                <p>微信免打扰</p>
+                </div>
+            </li>
+             <li onclick="window.open('weixin://dl/protection')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/protection.png">
+                </div>
+                <p>开启账号保护</p>
+                </div>
+            </li>
+        </ul>     
+    </div>
+    <div class="list1 nav_icon">
+        <ul id="setlist_16">
+            <li onclick="window.open('weixin://dl/myQRcode')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/myQRcode.png">
+                </div>
+                <p>我的二维码</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/textsize')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/textsize.png">
+                </div>
+                <p>设置字体大小</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/broadcastmessage')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/broadcastmessage.png">
+                </div>
+                <p>群发助手</p>
+                </div>
+            </li>
+            <li onclick="window.open('weixin://dl/favorites')">
+                <div>
+                <div class="img">
+                    <img src="./sources/imgs/favorites.png">
+                </div>
+                <p>微信收藏夹</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+
+</div>
+    
+<!--主内容区域-end-->
+</body></html>
